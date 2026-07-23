@@ -1,7 +1,30 @@
 aid: automax-ai
 name: Automax Ai
-description: Automax Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Automax AI is a fintech company delivering AI-native residential property
+  appraisals built for modern mortgage lending and the UAD 3.6 standard. Lenders
+  order signed residential appraisals directly from their loan origination system
+  (LOS) and get them back in days rather than weeks, combining AI-assisted market
+  data analysis with licensed appraiser review. The platform pairs a hybrid
+  appraisal workflow (automated mobile data capture of floor plans and photos plus
+  human quality review) with an Appraisal Copilot report-writing and analysis suite,
+  automated appraiser matching and assignment, nationwide licensed-appraiser
+  coverage, and real-time order status tracking. Automax AI is a Y Combinator
+  portfolio company. As of this profile the company exposes web and mobile
+  applications (an appraiser Copilot at copilot.automax.ai and an iOS app) but
+  publishes no public developer API, OpenAPI specification, or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.automax.ai/og.png
 url: https://raw.githubusercontent.com/api-evangelist/automax-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Real Estate
+- Appraisals
+- Property Valuation
+- Mortgage
+- Lending
+- Fintech
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/automax-ai-domain-security.yml
+- type: Website
+  url: https://www.automax.ai/
+- type: PrivacyPolicy
+  url: https://www.automax.ai/privacy
+- type: Support
+  url: https://www.automax.ai/contact
+- type: SignUp
+  url: https://appraisers.automax.ai/page_xm9pc/
+- type: Login
+  url: https://copilot.automax.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
