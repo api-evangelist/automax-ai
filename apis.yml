@@ -13,6 +13,17 @@ description: >-
   portfolio company. As of this profile the company exposes web and mobile
   applications (an appraiser Copilot at copilot.automax.ai and an iOS app) but
   publishes no public developer API, OpenAPI specification, or developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
